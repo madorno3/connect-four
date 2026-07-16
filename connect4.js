@@ -48,7 +48,7 @@ function makeHtmlBoard() {
   }
   htmlBoard.append(top);
 
-  // creating html rows in the first loop and td as cells in the second one
+  // creating html rows in the first loop cells in the second one
   // appending cells to the rows and rows to the html board
   for (var y = 0; y < HEIGHT; y++) {
     const row = document.createElement("tr");
